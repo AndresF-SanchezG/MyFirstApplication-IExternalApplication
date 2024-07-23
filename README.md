@@ -35,4 +35,6 @@ The objective of this exercise is to create a series of buttons with specific fu
 
    ![image](https://github.com/AndresF-SanchezG/MyFirstApplication-IExternalCommand/assets/113924667/7731dd67-77fc-4468-88b4-429e7cf62f20)
    ![image](https://github.com/AndresF-SanchezG/MyFirstApplication-IExternalCommand/assets/113924667/fa183e5a-76b1-47e3-8e47-952f555de233)
+   
+## STEP 2 - Generate .addin file
 
