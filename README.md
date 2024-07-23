@@ -38,3 +38,5 @@ The objective of this exercise is to create a series of buttons with specific fu
    
 ## STEP 2 - Generate .addin file
 
+Unlike how the .addin file was created in the IExternalCommand exercise, where the .addin file was created from Notepad, this time we will create it from the code editor. Additionally, we will learn that when we compile the code, the .addin file and the .dll file will automatically be copied to the specified path so that Revit can read our application.
+
