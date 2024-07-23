@@ -10,3 +10,7 @@ This interface has two main methods: **OnStartup(UIControlledApplication applica
 **OnStartup(UIControlledApplication application):** This method runs when Revit starts. This is where you can set up the external application, such as adding panels, buttons, or loading other necessary resources.
 
 **OnShutdown(UIControlledApplication application):** This method runs when Revit closes. This is where you can perform necessary cleanup, such as releasing resources or saving settings.
+
+## Target
+
+The objective of this exercise is
