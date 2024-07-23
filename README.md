@@ -13,4 +13,4 @@ This interface has two main methods: **OnStartup(UIControlledApplication applica
 
 ## Target
 
-The objective of this exercise is
+The objective of this exercise is to create a series of buttons with specific functions that will be placed on the Revit ribbon.
