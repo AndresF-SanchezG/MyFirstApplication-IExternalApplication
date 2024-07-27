@@ -40,3 +40,14 @@ The objective of this exercise is to create a series of buttons with specific fu
 
 Unlike how the .addin file was created in the IExternalCommand exercise, where the .addin file was created from Notepad, this time we will create it from the code editor. Additionally, we will learn that when we compile the code, the .addin file and the .dll file will automatically be copied to the specified path so that Revit can read our application.
 
+To generate the .addin file, we must follow these steps:
+
+  - Go to the class library
+  - Right click
+  - Select Add
+  - Select Nuevo Elemento
+  - In the Add New Item window, type the word 'manifesto' in the search bar and click Add.
+    
+  ![image](https://github.com/user-attachments/assets/aad39520-e3eb-4f20-ae43-ff467f18f586)
+
+
