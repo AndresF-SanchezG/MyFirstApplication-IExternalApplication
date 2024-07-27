@@ -50,4 +50,9 @@ To generate the .addin file, we must follow these steps:
     
   ![image](https://github.com/user-attachments/assets/aad39520-e3eb-4f20-ae43-ff467f18f586)
 
+  The template is generated where we will directly create the manifest file.
+
+  ![image](https://github.com/user-attachments/assets/b3a21bfe-8708-46d6-b88f-fdc28a639c04)
+
+
 
