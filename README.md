@@ -54,5 +54,36 @@ To generate the .addin file, we must follow these steps:
 
   ![image](https://github.com/user-attachments/assets/b3a21bfe-8708-46d6-b88f-fdc28a639c04)
 
+  We clear or delete its content since we don't need it.
+
+  ![image](https://github.com/user-attachments/assets/68b6d929-49f8-44d5-bb3d-e221453fe996)
+
+  Once the file is clean, we can copy the tags that were established in the IExternalCommand manifest file and modify the <AddIn Type="Command"> tag to <AddIn Type="Application"> and also modify the <FullClassName>AppIExternalApplication.Class1</FullClassName> tag with its respective name and the <ClientId>9CF15C42-FD1B-48CB-8029-575388BCB987</ClientId> tag with the respective GUID. The other tags can be retained as this is a test file to configure the manifest file.
+
+  ![image](https://github.com/user-attachments/assets/fdcb3dbb-ec8a-40cf-a14f-c50b37d658d1)
+
+  Once we have established the tags in the manifest file, we proceed to add the command lines that will ensure that when we compile the solution, the .dll file and the .addin file are copied directly to the necessary location.
+
+  To do this, it is necessary to perform the following steps:
+
+    - Select Proyecto
+    - Select Propiedades de "Nombre de Proyecto" 
+
+  ![image](https://github.com/user-attachments/assets/adb96f01-f5de-4f27-b91f-9033931b79c5)
+
+    - Select Eventos de Compilacion
+    - We write two command lines that will copy the two types of files (.dll and .addin) to the specified path once the solution is compiled.
+
+  ![image](https://github.com/user-attachments/assets/27b128ce-f0ae-45ca-b15d-5e9da3dde0fe)
+
+  Note that once the solution has been compiled, the .dll and .addin files have been copied to the path we established.
+
+  ![image](https://github.com/user-attachments/assets/3cd23aa6-8fed-4242-9f42-32f3f933d1cf)
+
+
+
+
+
+
 
 
