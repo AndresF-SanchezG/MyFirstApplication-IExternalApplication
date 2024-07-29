@@ -71,10 +71,10 @@ To generate the .addin file, we must follow these steps:
 
   ![image](https://github.com/user-attachments/assets/adb96f01-f5de-4f27-b91f-9033931b79c5)
 
-    - Select Eventos de Compilacion
-    - We write two command lines that will copy the two types of files (.dll and .addin) to the specified path once the solution is compiled.
+     - Select Eventos de Compilacion
+     - We write two command lines that will copy the two types of files (.dll and .addin) to the specified path once the solution is compiled.
 
-  ![image](https://github.com/user-attachments/assets/27b128ce-f0ae-45ca-b15d-5e9da3dde0fe)
+  ![image](https://github.com/user-attachments/assets/6a4ab4b0-77a3-4877-8e7f-016af5e4c9f3)
 
   Note that once the solution has been compiled, the .dll and .addin files have been copied to the path we established.
 
