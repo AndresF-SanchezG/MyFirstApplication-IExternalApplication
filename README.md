@@ -48,7 +48,7 @@ To generate the .addin file, we must follow these steps:
   - Select Nuevo Elemento
   - In the Add New Item window, type the word 'manifesto' in the search bar and click Add.
     
-  ![image](https://github.com/user-attachments/assets/aad39520-e3eb-4f20-ae43-ff467f18f586)
+  ![image](https://github.com/user-attachments/assets/38ff9d2e-2082-4a1e-9259-0efe571ce9bd)
 
   The template is generated where we will directly create the manifest file.
 
@@ -60,7 +60,7 @@ To generate the .addin file, we must follow these steps:
 
   Once the file is clean, we can copy the tags that were established in the IExternalCommand manifest file and modify the <AddIn Type="Command"> tag to <AddIn Type="Application"> and also modify the <FullClassName>AppIExternalApplication.Class1</FullClassName> tag with its respective name and the <ClientId>9CF15C42-FD1B-48CB-8029-575388BCB987</ClientId> tag with the respective GUID. The other tags can be retained as this is a test file to configure the manifest file.
 
-  ![image](https://github.com/user-attachments/assets/fdcb3dbb-ec8a-40cf-a14f-c50b37d658d1)
+  ![image](https://github.com/user-attachments/assets/7bb9ac11-7e70-4a77-b6b5-0e6c1a1092c5)
 
   Once we have established the tags in the manifest file, we proceed to add the command lines that will ensure that when we compile the solution, the .dll file and the .addin file are copied directly to the necessary location.
 
