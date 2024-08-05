@@ -80,6 +80,9 @@ To generate the .addin file, we must follow these steps:
 
   ![image](https://github.com/user-attachments/assets/3cd23aa6-8fed-4242-9f42-32f3f933d1cf)
 
+## Ribbon and Panel
+  
+
 
 
 
