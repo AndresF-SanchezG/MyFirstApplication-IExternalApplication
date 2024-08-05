@@ -81,6 +81,8 @@ To generate the .addin file, we must follow these steps:
   ![image](https://github.com/user-attachments/assets/3cd23aa6-8fed-4242-9f42-32f3f933d1cf)
 
 ## Ribbon and Panel
+
+In this section, we will learn to create custom panels where we will place our tools. First, we will do this within the 'Complementos' tab, and later, we will create our own custom tab.
   
 
 
