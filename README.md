@@ -103,6 +103,21 @@ Now, if we want to create more than one panel, we need to copy the line of code 
 
 ### Panel within Custom tab
 
+In this section, we will learn how to create a custom tab and panels within this tab. In the code editor, based on the API documentation, we first call the application object and then use the CreateRibbonTab method, which creates a custom tab. After that, we call the CreateRibbonPanel method and assign two parameters: the name of the previously created tab (Tab01) and the name of the panel or panels (Panel001).
+
+  ![image](https://github.com/user-attachments/assets/58c9abda-7d4e-4da3-a7f8-0bf3ea51bb7f)
+
+  ![image](https://github.com/user-attachments/assets/3e2c033f-b4e3-416b-a8be-7e298037c590)
+
+
+
+
+
+
+
+
+
+
   
 
   
