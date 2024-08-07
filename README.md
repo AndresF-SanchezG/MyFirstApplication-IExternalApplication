@@ -90,9 +90,11 @@ In this section, we will learn to create custom panels where we will place our t
 
 In the code editor and based on the API docs, we first call the application object and then call the CreateRibbonPanel method, which automatically creates the panel in the Complementos tab. We assign a string parameter with the name of the panel (Panel01).
 
+  ![image](https://github.com/user-attachments/assets/1f94b61e-b40b-4080-a57d-ad01b861f0be)
+
   ![image](https://github.com/user-attachments/assets/f1a777bc-66f7-46a6-b26c-1d0a07a719a3)
 
-  ![image](https://github.com/user-attachments/assets/1f94b61e-b40b-4080-a57d-ad01b861f0be)
+  
   
  
 
