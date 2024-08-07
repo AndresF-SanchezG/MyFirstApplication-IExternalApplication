@@ -94,6 +94,17 @@ In the code editor and based on the API docs, we first call the application obje
 
   ![image](https://github.com/user-attachments/assets/f1a777bc-66f7-46a6-b26c-1d0a07a719a3)
 
+Now, if we want to create more than one panel, we need to copy the line of code and change the name of the panel.
+
+  ![image](https://github.com/user-attachments/assets/ca0bf92f-7c8c-4b2f-82e8-0caa5bfc31ae)
+
+  ![image](https://github.com/user-attachments/assets/790e9d5e-23ba-4a2c-abc9-5f74b7909920)
+
+
+### Panel within Custom tab
+
+  
+
   
   
  
