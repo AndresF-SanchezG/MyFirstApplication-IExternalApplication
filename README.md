@@ -153,6 +153,36 @@ Once we have the PushButton object, we can call the following methods.
 
         ![image](https://github.com/user-attachments/assets/cf649185-70d1-437c-bf26-13f910cf8556)
 
+      - El resultado del metodo ToolTipImage es de tipo ImageSource lo que lo hace incompatible con nuestra imagen. Debemos convertir la imagen a tipo ImageSource para esto debemos llamar a las siguientes referencias externas: **PresentationCore** y **WindowsBase**. y creamos el siguiente metodo ConvertImage.
+   
+        ![image](https://github.com/user-attachments/assets/85d53674-fb72-4d69-b936-60cf8be6dec3)
+
+        PresentationCore and WindowsBase are key assemblies in the .NET Framework, specifically in the context of Windows Presentation Foundation (WPF) applications. Here's what they 
+        are used for:
+
+        **PresentationCore:**
+        Purpose: This assembly is a core part of WPF and contains the foundational classes for building WPF applications.
+        Key Responsibilities:
+        Provides basic classes for rendering graphics and handling UI elements.
+        Manages animations, transformations, and 2D/3D rendering.
+        Includes classes like UIElement, Visual, and FrameworkElement, which are essential for creating and manipulating UI elements in a WPF application.
+        **WindowsBase**
+        Purpose: This assembly provides base classes and fundamental support for WPF applications, acting as a lower-level building block.
+        Key Responsibilities:
+        Contains classes that support threading, input, and various system services.
+        Provides core data types like DependencyObject, Dispatcher, and ObservableCollection, which are essential for data binding, threading, and the overall architecture of WPF.
+        Offers support for event handling and the WPF property system.
+        **Summary**
+        PresentationCore is mainly concerned with the visual and graphical aspects of a WPF application.
+        WindowsBase provides essential non-visual support, including data binding, threading, and the core property system.
+        These references are required to build and run WPF applications, as they provide the necessary infrastructure and functionality for managing the application's UI and system 
+        interactions.
+
+        **ConvertImage**
+
+        This method effectively converts an image from the System.Drawing.Image format (used in Windows Forms) to the System.Windows.Media.ImageSource format (used in WPF). This is particularly useful when migrating or integrating code from a Windows Forms environment to a WPF environment, allowing the image to be displayed within a WPF UI.
+
+
     
 
         
