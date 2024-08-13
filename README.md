@@ -157,6 +157,9 @@ Once we have the PushButton object, we can call the following methods.
         to reference the following external assemblies: **PresentationCore** and **WindowsBase**. Then, we create the following method, ConvertImage.
    
         ![image](https://github.com/user-attachments/assets/85d53674-fb72-4d69-b936-60cf8be6dec3)
+        
+        ![image](https://github.com/user-attachments/assets/a0b8fc1d-7219-4974-8a10-c71a2a5bbaa0)
+
 
         PresentationCore and WindowsBase are key assemblies in the .NET Framework, specifically in the context of Windows Presentation Foundation (WPF) applications. Here's what they 
         are used for:
