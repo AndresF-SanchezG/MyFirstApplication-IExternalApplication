@@ -111,6 +111,15 @@ In this section, we will learn how to create a custom tab and panels within this
 
 ## STEP 4 - PushButton
 
+In this section, we will create a button that meets the following characteristics:
+  - This button has to be inside a panel.
+  - It has a title and an icon.
+  - When we place the mouse pointer over the button, a dialog box should appear containing information such as: Name, a brief description of the button's function, and a help option.
+  - When we hold the cursor over the button for a moment, a dialog box should appear containing information such as: Name, a detailed description of the button's function, a reference 
+    image, and finally, a help option.
+
+    
+
 
 
 
