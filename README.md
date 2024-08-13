@@ -172,6 +172,7 @@ Once we have the PushButton object, we can call the following methods.
         Contains classes that support threading, input, and various system services.
         Provides core data types like DependencyObject, Dispatcher, and ObservableCollection, which are essential for data binding, threading, and the overall architecture of WPF.
         Offers support for event handling and the WPF property system.
+        
         **Summary**
         PresentationCore is mainly concerned with the visual and graphical aspects of a WPF application.
         WindowsBase provides essential non-visual support, including data binding, threading, and the core property system.
