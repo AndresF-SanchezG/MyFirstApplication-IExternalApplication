@@ -138,6 +138,27 @@ To create a PushButton, we must follow these steps:
 
 ### Add Icon
 
+To add properties (icon, reference image, short description, etc.) to the button, we must use an object of type PushButton. This object allows access to various properties that can be found in the API Docs; in this case, we will use the ones mentioned above.
+
+To have a PushButton object, we first need to modify line **panelDePestaña.AddItem(datosDelPushButton);** as the AddItem method returns a RibbonItem type result, and we require a PushButton type result. To convert the result from RibbonItem to PushButton, we need to call the PushButton class, assign it a name, and use the reserved keyword as follow result type to perform the conversion.
+
+Once we have the PushButton object, we can call the following methods.
+  - **pushButton.ToolTip:** Method that assigns a brief description.
+  - **pushButton.LongDescription:** Method that assigns a long description.
+  - **pushButton.ToolTipImage:** Method that assigns a reference image.
+    
+      - At this point, we should have an image in PNG format. In the code editor, on the Project tab, select Application Properties.
+   
+        ![image](https://github.com/user-attachments/assets/f2e4b921-74c6-4089-801e-438260d69af6)
+
+        ![image](https://github.com/user-attachments/assets/cf649185-70d1-437c-bf26-13f910cf8556)
+
+    
+
+        
+
+
+
 
 
     
