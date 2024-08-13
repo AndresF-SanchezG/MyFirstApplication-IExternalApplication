@@ -136,7 +136,7 @@ To create a PushButton, we must follow these steps:
 
     ![image](https://github.com/user-attachments/assets/3861215d-3138-4ec5-bc3f-ff089f34f1bf)
 
-### Add Icon
+### Add Properties
 
 To add properties (icon, reference image, short description, etc.) to the button, we must use an object of type PushButton. This object allows access to various properties that can be found in the API Docs; in this case, we will use the ones mentioned above.
 
