@@ -132,6 +132,12 @@ To create a PushButton, we must follow these steps:
     **ClassName:** Name of the class that will execute when we press the button. First, we specify the namespace, then the name of the class that will execute.
   - Finally, we place our button inside the panel.
 
+    ![image](https://github.com/user-attachments/assets/aac49268-6d86-4e4c-b81d-40a664c94983)
+
+    ![image](https://github.com/user-attachments/assets/3861215d-3138-4ec5-bc3f-ff089f34f1bf)
+
+
+
     
 
 
