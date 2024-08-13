@@ -170,6 +170,7 @@ Once we have the PushButton object, we can call the following methods.
         Provides basic classes for rendering graphics and handling UI elements.
         Manages animations, transformations, and 2D/3D rendering.
         Includes classes like UIElement, Visual, and FrameworkElement, which are essential for creating and manipulating UI elements in a WPF application.
+        
         **WindowsBase**
         Purpose: This assembly provides base classes and fundamental support for WPF applications, acting as a lower-level building block.
         Key Responsibilities:
