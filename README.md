@@ -118,6 +118,20 @@ In this section, we will create a button that meets the following characteristic
   - When we hold the cursor over the button for a moment, a dialog box should appear containing information such as: Name, a detailed description of the button's function, a reference 
     image, and finally, a help option.
 
+### Button inside of a panel.
+
+To create a PushButton, we must follow these steps:
+  - First, we store the panel in a variable of type RibbonPanel. 
+  - Create an instance of the PushButtonData class, an object that receives the information for the PushButton. First, we define the name of the object and then initialize the object using the reserved word 'new'. This class receives 4 string parameters: Name, Text, AssemblyName, and Class name.
+    **Name:** Button Name;
+    **Text:** Button title;
+    **AssemblyName:** Is used in C# to obtain the location (file path) of the assembly (DLL or EXE file) where the Class1 type is defined.
+    Typeof(Class1): This gets the Type object that represents the Class1 type. In simpler terms, it tells the code to look at the class definition for Class1.
+    Assembly: This accesses the Assembly object that represents the compiled code (DLL or EXE) where the Class1 class is defined.
+    Location: This retrieves the file path of the assembly (the physical location on disk) where the Class1 class is stored.
+    **ClassName:** Name of the class that will execute when we press the button. First, we specify the namespace, then the name of the class that will execute.
+  - Finally, we place our button inside the panel.
+
     
 
 
