@@ -109,7 +109,7 @@ In this section, we will learn how to create a custom tab and panels within this
 
   ![image](https://github.com/user-attachments/assets/3e2c033f-b4e3-416b-a8be-7e298037c590)
 
-## STEP 4 - PushButton
+## STEP 4 - Push Button
 
 In this section, we will create a button that meets the following characteristics:
   - This button has to be inside a panel.
@@ -189,7 +189,26 @@ Once we have the PushButton object, we can call the following methods.
 
         ![image](https://github.com/user-attachments/assets/7dec4818-a5b4-4e5c-9f45-be2da988dfc4)
 
+### Add Help Option
 
+To add the help option, we need to create an instance of the ContextualHelp class and assign it two parameters: **ContextualHelpType.Url** y **Link**.
+
+  - **ContextualHelpType.Url:** This is an enum that specifies the type of help. In this case, Url indicates that the help content will be provided via a web URL.
+  - **Link:** This is the URL that will be opened when the user requests help. It points to the Revit API documentation site, which provides information about the Revit API.
+  - 
+Finally, we call the PushButton object and the SetContextualHelp method, and add the ayudaContextual object that was created earlier.
+
+ - **SetContextualHelp:** This is a method that attaches a ContextualHelp object to the PushButton. This method configures the button so that when a user requests help (usually by pressing F1 or clicking a help icon), the associated help content is displayed.
+ - 
+![image](https://github.com/user-attachments/assets/60b0db1b-820f-49cc-931e-0dc64ad9a209)
+
+### Add Icon
+
+- At this point, we should have an image in PNG format. In the code editor, on the Project tab, select Application Properties.
+   
+        ![image](https://github.com/user-attachments/assets/f2e4b921-74c6-4089-801e-438260d69af6)
+
+        ![image](https://github.com/user-attachments/assets/cf649185-70d1-437c-bf26-13f910cf8556)
 
     
 
