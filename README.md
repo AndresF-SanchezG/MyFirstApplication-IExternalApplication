@@ -206,9 +206,24 @@ Finally, we call the PushButton object and the SetContextualHelp method, and add
 
 - At this point, we should have an image in PNG format. In the code editor, on the Project tab, select Application Properties.
    
-        ![image](https://github.com/user-attachments/assets/f2e4b921-74c6-4089-801e-438260d69af6)
+  ![image](https://github.com/user-attachments/assets/f2e4b921-74c6-4089-801e-438260d69af6)
 
-        ![image](https://github.com/user-attachments/assets/cf649185-70d1-437c-bf26-13f910cf8556)
+  ![image](https://github.com/user-attachments/assets/7832099b-0df1-4d6a-90e0-b07ce9ea11d8)
+
+- Once we have defined the icon image, we need to call the LargeImage property and convert the image as done previously using the ConvertImage method.
+- Finally, we call the addSeparator method, which functions to place a line next to the Push Button we are creating.
+
+  ![image](https://github.com/user-attachments/assets/a4e383ea-04af-43bc-b1cd-81e3807f79fb)
+
+The result is....
+
+  ![image](https://github.com/user-attachments/assets/02f2e56a-26cf-4521-8267-18bd7275b5bf)
+
+
+
+
+
+     
 
     
 
