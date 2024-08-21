@@ -109,7 +109,7 @@ In this section, we will learn how to create a custom tab and panels within this
 
   ![image](https://github.com/user-attachments/assets/3e2c033f-b4e3-416b-a8be-7e298037c590)
 
-## STEP 4 - Push Button
+## STEP 4 - PushButton
 
 In this section, we will create a button that meets the following characteristics:
   - This button has to be inside a panel.
@@ -218,6 +218,10 @@ Finally, we call the PushButton object and the SetContextualHelp method, and add
 The result is....
 
   ![image](https://github.com/user-attachments/assets/02f2e56a-26cf-4521-8267-18bd7275b5bf)
+
+### Executing the pushButton
+
+In this section, we will create a new pushButton using the least amount of memory possible by when pressed it, generates a dialog box with a custom message.
 
 
 
