@@ -221,7 +221,31 @@ The result is....
 
 ### Executing the pushButton
 
-In this section, we will create a new pushButton using the least amount of memory possible by when pressed it, generates a dialog box with a custom message.
+In this section, we will create a new pushButton02 using the least amount of memory possible, when pressed it generates a dialog box with a custom message.
+
+**Create PushButton02**
+
+![image](https://github.com/user-attachments/assets/3afde04a-14bf-472b-a9f8-eed6fef27d1c)
+
+![image](https://github.com/user-attachments/assets/7fcd9bd3-c146-4b0a-b309-1d16c83180ba)
+
+**Executing PushButton02**
+
+To execute button 02, we will go to class 02 created earlier and call the references.
+
+![image](https://github.com/user-attachments/assets/03a284f5-0d55-4c8d-870e-9a180f2d640d)
+
+In previous steps, it was mentioned that when we want to work with project information, we use the IExternalCommand interface, and when we want to make modifications within the Revit user interface, we use the IExternalApplication interface. In this case, class 02 should have the IExternalCommand interface because we will be working with project information.
+
+![image](https://github.com/user-attachments/assets/5a217646-4e55-448e-87d9-29903558b738)
+
+Finally, we have....
+
+![image](https://github.com/user-attachments/assets/a4a810df-7c4f-4582-835c-72b8932cf947)
+
+
+
+
 
 
 
