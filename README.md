@@ -249,6 +249,46 @@ In this section, we will learn to add multiple tools within a single tool.
 
 ![image](https://github.com/user-attachments/assets/3b52550a-4186-40ac-abaa-3be2b20c0708)
 
+To create the pullbuttondown, we need to do the following.
+
+First, we need to create an object that contains the information for the pulldownbutton, this object should contain the name and the text of the PullDownButton.
+
+![image](https://github.com/user-attachments/assets/bac2cdbc-9427-49fd-be1a-f7816f6da69d)
+
+Now, we need to add the PullButtonDown to the panel we created earlier.
+
+![image](https://github.com/user-attachments/assets/9817bac9-a59b-441a-b9d2-7d76980d2b31)
+
+Once the previous step is complete, we can add the PushButtons inside the PullButtonDown.
+
+**Create PushButton 03**
+
+![image](https://github.com/user-attachments/assets/92c37a90-4ac7-4a97-b20a-546110c3c217)
+
+Once the new button is created, we need to add it to the PullDownButton.
+
+![image](https://github.com/user-attachments/assets/81ed1817-6295-4417-b860-7705d20a6013)
+
+We repeat the process for another new PushButton04.
+
+![image](https://github.com/user-attachments/assets/52578d7f-b71b-4974-bf12-4478a3a0a88a)
+
+and finally the result is....
+
+![image](https://github.com/user-attachments/assets/ea56493b-a81d-4129-b079-e87d0834c67c)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
